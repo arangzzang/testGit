@@ -10,6 +10,7 @@ public class Member {
 	private String address;
 	private String[] hobby;
 	
+<<<<<<< HEAD
 		
 	public Member() {
 		// TODO Auto-generated constructor stub
@@ -23,6 +24,25 @@ public class Member {
 		this.address = address;
 		this.hobby = hobby;
 	}
+=======
+	
+	
+	
+	private String phone;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+>>>>>>> refs/heads/master
 	public String getUserId() {
 		return userId;
 	}
