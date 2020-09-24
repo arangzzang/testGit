@@ -9,7 +9,7 @@ public class Member {
 	private String name;
 	private String address;
 	private String[] hobby;
-	
+	private String email;
 	
 	
 	public Member() {
