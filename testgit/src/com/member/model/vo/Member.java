@@ -50,6 +50,12 @@ public class Member {
 		return "Member [toString()=" + super.toString() + ", userId=" + userId + ", userPw=" + userPw + ", name=" + name
 				+ ", address=" + address + ", hobby=" + Arrays.toString(hobby) + "]";
 	}
+
+	@Override
+	public boolean equals(Object obj) {
+		// TODO Auto-generated method stub
+		return super.equals(obj);
+	}
 	
 	
 }
