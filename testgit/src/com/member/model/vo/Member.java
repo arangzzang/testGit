@@ -1,5 +1,7 @@
 package com.member.model.vo;
 
+import java.util.Arrays;
+
 public class Member {
 
 	private String userId;
@@ -39,4 +41,12 @@ public class Member {
 	public void setHobby(String[] hobby) {
 		this.hobby = hobby;
 	}
+
+	@Override
+	public String toString() {
+		return "Member [toString()=" + super.toString() + ", userId=" + userId + ", userPw=" + userPw + ", name=" + name
+				+ ", address=" + address + ", hobby=" + Arrays.toString(hobby) + "]";
+	}
+	
+	
 }
