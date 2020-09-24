@@ -9,7 +9,7 @@ public class Member {
 	
 	
 	
-	
+	private String phone;
 	
 	
 	
