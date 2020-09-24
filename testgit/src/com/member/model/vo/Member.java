@@ -7,7 +7,7 @@ public class Member {
 	private String name;
 	private String address;
 	private String[] hobby;
-<<<<<<< HEAD
+	
 		
 	public Member() {
 		// TODO Auto-generated constructor stub
@@ -21,25 +21,6 @@ public class Member {
 		this.address = address;
 		this.hobby = hobby;
 	}
-=======
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	public String getUserId() {
 		return userId;
 	}
@@ -58,22 +39,4 @@ public class Member {
 	public void setHobby(String[] hobby) {
 		this.hobby = hobby;
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
->>>>>>> refs/heads/master
-	
-	
 }
