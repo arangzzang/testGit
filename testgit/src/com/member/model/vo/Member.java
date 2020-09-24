@@ -11,4 +11,15 @@ public class Member {
 	public Member() {
 		// TODO Auto-generated constructor stub
 	}
+
+	public Member(String userId, String userPw, String name, String address, String[] hobby) {
+		super();
+		this.userId = userId;
+		this.userPw = userPw;
+		this.name = name;
+		this.address = address;
+		this.hobby = hobby;
+	}
+	
+	
 }
